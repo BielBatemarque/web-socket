@@ -1,4 +1,4 @@
-# Web-Socker Multthread Python🐍
+# Web-Socker Multithreading Python🐍
 > Necessário ter o Python instalado
 
 ## Preparando Ambiente
