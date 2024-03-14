@@ -7,5 +7,5 @@ Caso já tenha o interpretador do Python instalado, basta rodar o comando :
 > pip install -r requiriments.txt
 
 ## No diretório presente, sendo em uma virtual_env ou não, e logo em seguida executar os arquivos:
-> python ./cliente.py
+> python ./cliente.py <br>
 > python ./server.py
