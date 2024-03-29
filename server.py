@@ -15,9 +15,8 @@ class Server():
                 print("Enviado: pong")
 
     async def start_server(self):
-        # Inicia o servidor dentro do loop de eventos
         async with websockets.serve(self.ping_pong, "localhost", 8765):
-            await asyncio.Future()  # Mantém o servidor em execução para sempre
+            await asyncio.Future()
 
 if __name__ == "__main__":
     server = Server()
