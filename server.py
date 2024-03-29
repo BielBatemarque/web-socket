@@ -2,8 +2,11 @@ import asyncio
 import websockets
 
 class Server():
+
+    def __init__(self) -> None:
+        pass
     
-    async def ping_pong(self, websocket, path):
+    async def ping_pong(self, websocket):
         async for mensagem in websocket:
             if mensagem == "ping":
                 print("Recebido: ping")
